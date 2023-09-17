@@ -76,7 +76,9 @@ body {
   color: #595959;
 }
 .my-project-link:hover,
-.my-project-link:focus {
+.my-project-link:focus,
+.link-active:hover,
+.link-active:focus {
   color: #fb6d3a;
 }
 .my-project-bracket {
@@ -164,6 +166,7 @@ body {
   font-style: Regular;
   font-size: 14px;
   line-height: 24px;
+  transition: color 0.3s;
 }
 /* tech & soft skills section */
 .tech-skills-list,
